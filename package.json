@@ -1,0 +1,28 @@
+{
+  "name": "dage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "cron": "^1.0.9",
+    "express": "^4.13.3",
+    "sqlite3": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DageTeam/dage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DageTeam/dage/issues"
+  },
+  "homepage": "https://github.com/DageTeam/dage#readme"
+}
