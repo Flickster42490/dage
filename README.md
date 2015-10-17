@@ -39,7 +39,7 @@ Däge also features simple RESTful API calls from the front-end to back-end. How
 **Authentication** 
 ![alt text](http://s19.postimg.org/cqx258ptf/manage_users_flow_New_Page.png)
 
-#HOW DOES THE DägeWATCH ALGORITHM SIFT THRU ALL EMAILS?
+#HOW DOES THE DÄGEWATCH ALGORITHM SIFT THRU ALL EMAILS?
 
 Let’s start with the fetching of the email. The mailListener.js, when ran, consistently listens for incoming emails sent to the provided email address setup. In our case, it is Dägeprotect@gmail.com. When the mailListener detects a new mail has been received, it will first sanitize the email subject and email body for apostrophes. A single apostrophe can break the SQL Statement, thus we need to escape it by appending another apostrophe to it. Then the insertEmail function will be called from the database.js file to insert the email into the database.
 
@@ -76,7 +76,7 @@ Make sure the Express server is running, then navigate to __BLANK__ and execute 
 Please see _CONTRIBUTING.md for contributing best practices. Aside from our extensive comments within the codebase, we've tried our best to create easy-to-understand self-documenting code. Please try to keep this up when you are contributing. Thanks!
 
 #Developers#
-TEAM Däge: 
+TEAM DÄGE: 
 GT Deng
 Anthony Liu
 Max Li
