@@ -12,28 +12,50 @@ Let's look at Dage's functionalities:
 
 2. The unread flagged emails panel allows you to receive new alerts on this screen. Every email has details on which keywords triggered the flag and the context the keyword exists in, allowing the admin or the lower level users to unflag emails to train DageWatch. 
 
-3.The all flagged emails panel archives all unflagged emails or those that have been read. 
+3. The all flagged emails panel archives all unflagged emails or those that have been read. 
 
 4. DageWatch flagged emails - confidence level
+
 5. The customization panel allows the top level admin to manage custom filters and its related keywords. It features responsive adding and removing capabilities despite the need to query the database, thanks to the dynamic re-rendering capabilities based off the React state tree. 
 
 6. The manage users panel allows admin users to manage lower-level users. Set permission groups broken down by department so  teams only see relevant flagged emails. 
 
 All these features provides actionable intel to make it incredibily easy to secure your company's outbound email stream. 
 
-**Architecture**
+#Architecture#
 
-Dage features simple RESTful API calls from the front-end to back-end. However, it might be tedious/difficult to follow along the React/Redux structure if you have never had experiences with Redux way of creating new state trees through actions and reducers. We've provided an action/reducer map to elucidate how some of the features work. 
+![alt text](http://s19.postimg.org/kmc6xsotv/Slide1.jpg)
 
-Email Fetch
-![alt text](http://s21.postimg.org/h0m01vrvb/Redux_State_Tree_Actions_Trial_Blank.png)
+Dage also features simple RESTful API calls from the front-end to back-end. However, it might be tedious/difficult to follow along the React/Redux structure if you have never had experiences with Redux way of creating new state trees through actions and reducers. We've provided several action/reducer map to elucidate how some of Dage's features are rendered. 
 
+*Note: a) rectangular boxes represent the constants and the actions. b) words superimposed on the arrows represent the state changes caused by the reducers. c) the diamonds represent the different states within the state tree. 
 
-**Deployment**
+**Emails**
+![alt text](http://s19.postimg.org/mmy54vvlf/Redux_State_Tree_Actions_Trial_Blank.png)
 
-**Testing**
+**Filters** 
+![alt text](http://s19.postimg.org/ek4k7b0dv/Blank_Flowchart_New_Page.png)
 
-**Contributing**
+**Authentication** 
+![alt text](http://s19.postimg.org/cqx258ptf/manage_users_flow_New_Page.png)
 
-**Authors**
+#Deployment#
+
+Run __BLANK__. That's it!
+
+#Testing#
+
+Make sure the Express server is running, then navigate to __BLANK__ and execute __BLANK__. 
+
+#Contributing#
+
+Please see _CONTRIBUTING.md for contributing best practices. Aside from our extensive comments within the codebase, we've tried our best to create easy-to-understand self-documenting code. Please try to keep this up when you are contributing. Thanks!
+
+#Developers#
+TEAM DAGE: 
+GT Deng
+Anthony Liu
+Max Li
+Andrew Nguyen
+Tito Esteves
 
