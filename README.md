@@ -38,6 +38,7 @@ Dage also features simple RESTful API calls from the front-end to back-end. Howe
 
 **Authentication** 
 ![alt text](http://s19.postimg.org/cqx258ptf/manage_users_flow_New_Page.png)
+<<<<<<< HEAD
 
 #HOW DOES THE DAGEWATCH ALGORITHM SIFT THRU ALL EMAILS?
 
