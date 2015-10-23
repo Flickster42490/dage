@@ -1,5 +1,5 @@
 # Däge #
-Check out our github repo at github.com/dageteam/dage
+Check out our github repo at https://github.com/dageteam/dage
 Check out our 3 minutes video at https://vimeo.com/142972852 
 
 
